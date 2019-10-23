@@ -29,7 +29,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Kata.ToDo\Kata.ToDo.csproj" />
+    <ProjectReference Include="..\Kata.ToDo.WebApi\Kata.ToDo.WebApi.csproj" />
   </ItemGroup>
 
 </Project>

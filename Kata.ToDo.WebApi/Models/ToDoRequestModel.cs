@@ -1,4 +1,4 @@
-﻿namespace Kata.ToDo.Models
+﻿namespace Kata.ToDo.WebApi.Models
 {
     public class ToDoRequestModel
     {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Kata.ToDo.Controllers
+namespace Kata.ToDo.WebApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

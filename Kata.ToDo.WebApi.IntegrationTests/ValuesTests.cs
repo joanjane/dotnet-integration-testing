@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Kata.ToDo.IntegrationTests
+namespace Kata.ToDo.WebApi.IntegrationTests
 {
     [TestClass]
     public class ValuesTests

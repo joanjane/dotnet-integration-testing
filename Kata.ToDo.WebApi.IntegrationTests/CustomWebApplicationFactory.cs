@@ -1,15 +1,13 @@
-﻿using Kata.ToDo.Data;
+﻿using Kata.ToDo.WebApi.Data;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc.Testing;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
-using System;
 using System.IO;
 using System.Threading.Tasks;
 
-namespace Kata.ToDo.IntegrationTests
+namespace Kata.ToDo.WebApi.IntegrationTests
 {
     public class CustomWebApplicationFactory : WebApplicationFactory<Startup>
     {

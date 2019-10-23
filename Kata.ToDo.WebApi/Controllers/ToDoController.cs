@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Kata.ToDo.Data;
-using Kata.ToDo.Models;
+using Kata.ToDo.WebApi.Data;
+using Kata.ToDo.WebApi.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
-namespace Kata.ToDo.Controllers
+namespace Kata.ToDo.WebApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

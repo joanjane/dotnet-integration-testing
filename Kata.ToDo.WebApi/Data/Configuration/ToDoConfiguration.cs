@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace Kata.ToDo.Data.Configuration
+namespace Kata.ToDo.WebApi.Data.Configuration
 {
     public class ToDoConfiguration : IEntityTypeConfiguration<Entities.ToDo>
     {

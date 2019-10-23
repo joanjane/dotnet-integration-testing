@@ -1,14 +1,13 @@
-using Kata.ToDo.Models;
+using Kata.ToDo.WebApi.Models;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
-using System.Text;
 using System.Threading.Tasks;
 
-namespace Kata.ToDo.IntegrationTests
+namespace Kata.ToDo.WebApi.IntegrationTests
 {
     [TestClass]
     public class ToDoTests

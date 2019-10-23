@@ -1,7 +1,7 @@
-﻿using Kata.ToDo.Data.Configuration;
+﻿using Kata.ToDo.WebApi.Data.Configuration;
 using Microsoft.EntityFrameworkCore;
 
-namespace Kata.ToDo.Data
+namespace Kata.ToDo.WebApi.Data
 {
     public class ApplicationDbContext : DbContext
     {

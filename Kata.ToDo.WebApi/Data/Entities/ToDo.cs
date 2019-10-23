@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace Kata.ToDo.Models
+namespace Kata.ToDo.WebApi.Data.Entities
 {
-    public class ToDoModel
+    public class ToDo
     {
         public Guid Id { get; set; }
         public string Text { get; set; }
